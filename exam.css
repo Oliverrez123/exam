@@ -3,7 +3,11 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 #h1 {color: #85ffbd;
+<<<<<<< HEAD
 justify-content: ;
+=======
+justify-content: space-between;
+>>>>>>> 984a82d6c2261f3f1dbe0b6361b8b41e49f98899
 }
 
 #h2 {color: ;}

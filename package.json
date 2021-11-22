@@ -1,0 +1,23 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exam.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oliverrez123/exam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oliverrez123/exam/issues"
+  },
+  "homepage": "https://github.com/Oliverrez123/exam#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

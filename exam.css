@@ -3,6 +3,18 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 #h1 {color: #85ffbd;
-justify-content: space-between;}
+font-size: 40px;}
 
-#h2 {color: green}
+#h2 {color: mediumturquoise;}
+
+.varer {background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+font-size: 25px;
+border-radius: 25px;
+padding: 15px;
+display: table;
+color: mediumvioletred;
+}
+
+.opret {text-align: end;
+font-size: 10px;}

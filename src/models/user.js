@@ -1,8 +1,12 @@
+// I denne fil definerer jeg en model til at definerer hvordan mine brugere skal være opbygget til brug i andre filer
 class User {
-    constructor(email, password) {
-      this.email = email;
-      this.password = password;
-    }
+ 
+  //laver mit bruger objekte med constructor metoden
+  constructor(email, password) {
+    this.email = email;
+    this.password = password;
   }
-  
-  module.exports = User;
+}
+
+//for at kunne hentes i de andre filer, eksporterer jeg routeren
+module.exports = User;

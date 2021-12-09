@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="profil.js"></script>
+    <link rel="stylesheet" href="profil.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+        <h1>Put your item for sale</h1>
+        <form id="createForm">
+    <input placeholder="Category" id="category"/>   
+    <input placeholder="Price" id="price"/>
+
+<input value="Put up for sale!" type="submit"/>
+</form>
+<p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+<p><label for="file" style="cursor: pointer;">Click here to upload an image</label></p>
+<div id="image">
+<p><img id="output" width="200" id="image"/></p>
+</div>
+
+
+<h2>Edit profile</h2>
+<p>Forgot your password? Update the old one here!</p>
+<div>
+    <label>New email</label>
+    
+    <form>
+        <input name="email" placeholder="New email" id="newEmail">
+    </form>
+    <label>New password:</label>
+    <form>
+    <input type="password" name="kodeord" placeholder="New password" id="newPassword">
+</form>
+</div>
+<button value="Submit" type="submit" onclick="updateUser()">Update User</button>
+
+
+<input value="Log Out" type="submit"onclick="logout()" />
+<a class="link" href="./index.html">Home</a>
+</body>
+</html>

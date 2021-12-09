@@ -1,10 +1,10 @@
 class Item {
-    //bruger constuctor til at "constructe" (lave) mit Items (vare) objekt
-        constructor(kategori, pris) {
-            //herefter gemmer jeg de ønskede variabler til mit Item-objekt
-            this.kategori = kategori;
-            this.pris = pris;
-        }
-    }
-    
-    module.exports = Item;
+//laver mine item objekter med constructor metoden
+    constructor(kategori, pris) {
+        
+        this.kategori = kategori;
+        this.pris = pris;
+    }}
+
+//for at kunne hentes i de andre filer, eksporterer jeg routeren
+module.exports = Item;
